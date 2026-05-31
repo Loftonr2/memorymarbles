@@ -137,7 +137,7 @@ export default function Home() {
       </SectionWrapper>
 
       {/* 3. DATA ANCHOR SECTION */}
-      <SectionWrapper className="relative bg-black/40 border-y border-white/[0.03] overflow-hidden">
+      <SectionWrapper className="relative bg-black/40 border-y border-white/[0.03]">
          {/* Animated color orbs */}
          <div className="absolute inset-0 pointer-events-none">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-purple-600/10 blur-[140px] rounded-full animate-pulse" />
@@ -158,7 +158,7 @@ export default function Home() {
                whileInView={{ opacity: 1, scale: 1 }}
                transition={{ duration: 0.9, ease: "easeOut" }}
                viewport={{ once: true }}
-               className="text-8xl md:text-[14rem] font-black tracking-[-0.05em] leading-none italic uppercase bg-gradient-to-r from-cyan-400 via-purple-300 to-cyan-400 bg-clip-text text-transparent drop-shadow-[0_0_60px_rgba(0,243,255,0.25)]"
+               className="text-7xl md:text-[11rem] font-black tracking-[-0.02em] leading-none italic uppercase bg-gradient-to-r from-cyan-400 via-purple-300 to-cyan-400 bg-clip-text text-transparent drop-shadow-[0_0_60px_rgba(0,243,255,0.25)] px-4 w-full text-center"
             >
                $114B
             </motion.h2>
